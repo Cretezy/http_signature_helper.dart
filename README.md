@@ -1,4 +1,4 @@
-# http_signature_helper
+# http_signature_helper  [![pub package](https://img.shields.io/pub/v/http_signature_helper.svg)](https://pub.dartlang.org/packages/http_signature_helper)
 
 Signature helpers from the [HTTP Signature spec](https://tools.ietf.org/id/draft-cavage-http-signatures-10.html).
 
