@@ -1,6 +1,6 @@
 name: http_signature_helper
 description: Signature helpers from the HTTP Signature spec.
-version: 1.0.0+1
+version: 1.0.1
 homepage: https://github.com/Cretezy/http_signature_helper.dart
 author: Charles Crete <charles@cretezy.com>
 

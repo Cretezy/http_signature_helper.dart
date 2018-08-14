@@ -31,8 +31,8 @@ class SignatureString {
 
   SignatureString(
       {this.body,
-      Map<String, String> headers,
-      List<String> signatureHeaders,
+      Map<String, String> headers = const <String, String>{},
+      List<String> signatureHeaders = const <String>[],
       this.target,
       this.nonce})
       : this.headers =
@@ -86,7 +86,7 @@ class SignatureHeader {
       {this.keyId,
       this.algorithm,
       this.signature,
-      List<String> signatureHeaders,
+      List<String> signatureHeaders = const <String>[],
       this.nonce,
       this.prefixed = true})
       : this.signatureHeaders = signatureHeaders
